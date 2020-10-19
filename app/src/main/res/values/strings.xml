@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Child Growth System</string>
+
+    <string name="label_tanggal">Tanggal Catat</string>
+    <string name="label_tinggi">Tinggi (Cm)</string>
+    <string name="label_berat">Berat (Kg)</string>
+    <string name="label_catatan">Catatan</string>
+
+    <string name="action_simpan">Simpan</string>
+</resources>

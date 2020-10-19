@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Tanggal"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/tinggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Tinggi"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/berat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Berat"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/hapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorVarietyText"
+        android:background="@color/colorRemoveButton"></Button>
+</LinearLayout>
