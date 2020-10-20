@@ -40,6 +40,10 @@ public class ActionGrowthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_action_growth);
 
+        // Add Back Button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         // Initiate object view
         lblTanggal = (TextView) findViewById(R.id.tanggal);
         txtTinggi = (EditText) findViewById(R.id.tinggi);
@@ -89,6 +93,12 @@ public class ActionGrowthActivity extends AppCompatActivity {
                 save();
             }
         });
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
     public String getDeviceId() {
